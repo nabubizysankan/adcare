@@ -1,0 +1,14 @@
+HTTrack3.49-2 launched on Wed, 10 Apr 2019 19:02:43 at https://askbootstrap.com/preview/osahan-soft-themez/index.html
+(httrack https://askbootstrap.com/preview/osahan-soft-themez/index.html -W -O /Users/bizysankan/websites/Softthemes -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:02:47	Warning: 	Note: due to https://askbootstrap.com remote robots.txt rules, links beginning with these path will be forbidden: / (see in the options to disable this)
+19:04:59	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/watch?v=D7tF-cY2M9o
+19:04:59	Warning: 	File not parsed, looks like binary: https://www.youtube.com/watch?v=D7tF-cY2M9o
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 16 seconds : 4 links scanned, 1 files written (38119 bytes overall), no files updated [58562 bytes received at 430 bytes/sec], 55926 bytes transferred using HTTP compression in 2 files, ratio 100%
+(No errors, 3 warnings, 0 messages)
