@@ -1,5 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-19:02:47	185/185	U-----	200	untouched ('OK')	text/plain	date:Wed,%2019%20Sep%202018%2008:48:25%20GMT	https://askbootstrap.com/robots.txt		(from )
-19:02:47	38119/38119	U-----	200	untouched ('OK')	text/html	date:Sat,%2016%20Jun%202018%2019:30:06%20GMT	https://askbootstrap.com/preview/osahan-soft-themez/index.html	askbootstrap.com/preview/osahan-soft-themez/index.html	(from )
-19:04:59	344/344	---M-Z	-1	error ('Open%20error%20when%20decompressing%20(can%20not%20create%20temporary%20file%20/tmp0.z)')	text/plain	date:Tue,%2012%20Mar%202019%2017:15:00%20GMT	https://www.youtube.com/robots.txt		(from https://askbootstrap.com/preview/osahan-soft-themez/index.html)
-19:04:59	55582/55582	---MCZ	-1	error ('Error%20when%20decompressing')	text/html	date:Wed,%2010%20Apr%202019%2016:04:58%20GMT	https://www.youtube.com/watch?v=D7tF-cY2M9o	www.youtube.com/watch.187d3.delayed	(from https://askbootstrap.com/preview/osahan-soft-themez/index.html)
