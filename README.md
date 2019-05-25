@@ -1,1 +1,1 @@
-(WIP) Working new site for adcare
+(WIP) New website for AdCare.
