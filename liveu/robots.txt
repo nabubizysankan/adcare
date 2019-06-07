@@ -1,0 +1,65 @@
+# If the Joomla site is installed within a folder such as at
+# e.g. www.example.com/joomla/ the robots.txt file MUST be
+# moved to the site root at e.g. www.example.com/robots.txt
+# AND the joomla folder name MUST be prefixed to the disallowed
+# path, e.g. the Disallow rule for the /administrator/ folder
+# MUST be changed to read Disallow: /joomla/administrator/
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/orig.html
+#
+# For syntax checking, see:
+# http://tool.motoricerca.info/robots-checker.phtml
+
+User-agent: *
+Disallow: /Sales_T_and_C.pdf
+Disallow: /Sales_T_and_C_MENA.pdf
+Allow: /components/com_tabulizer/assets/js/jtquery.min.js
+Allow: /components/com_tabulizer/assets/js/responsive/respond.min.js
+Allow: /components/com_tabulizer/assets/css/responsive/responsive-reflow.css
+Allow: /components/com_tabulizer/assets/css/responsive/responsive-datatables.css
+Allow: /components/com_tabulizer/assets/js/responsive/responsive-reflow.js
+Allow: /components/com_tabulizer/assets/css/datatables/jquery.dataTables.css
+Allow: /components/com_tabulizer/assets/css/datatables/tabulizer.dataTables.css
+Allow: /components/com_tabulizer/assets/js/datatables/jtquery.dataTables.min.js
+Allow: /components/com_tabulizer/assets/js/datatables/jtquery.dataTables.extensions.js
+Allow: /components/com_tabulizer/assets/css/export/exportdata.css
+Allow: /components/com_rsform/assets/calendar/calendar.css
+Allow: /components/com_rsform/assets/css/front.css
+Allow: /components/com_rsform/assets/js/script.js
+Allow: /components/com_k2/js/k2.js?v2.6.9&sitepath=/
+Allow: /modules/mod_k2_related_content/assets/css/K2RelatedContent.css
+Allow: /plugins/content/jw_sigpro/jw_sigpro/includes/js/jquery_fancybox/fancybox/jquery.fancybox.css?v=2.1.5
+Allow: /plugins/content/jw_sigpro/jw_sigpro/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.css?v=2.1.5
+Allow: /plugins/content/jw_sigpro/jw_sigpro/tmpl/Classic/css/template.css
+Allow: /plugins/content/jw_sigpro/jw_sigpro/includes/images/transparent.gif
+Allow: /plugins/content/jw_sigpro/jw_sigpro/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.css?v=2.1.5
+Allow: /plugins/content/jw_sigpro/jw_sigpro/includes/css/print.css
+Allow: /plugins/content/jw_sigpro/jw_sigpro/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-buttons.js?v=2.1.5
+Allow: /plugins/content/jw_sigpro/jw_sigpro/includes/js/behaviour.js
+Allow: /plugins/content/jw_sigpro/jw_sigpro/includes/js/jquery_fancybox/fancybox/helpers/jquery.fancybox-thumbs.js?v=2.1.5
+Allow: /plugins/content/jw_sigpro/jw_sigpro/includes/js/jquery_fancybox/fancybox/lib/jquery.mousewheel-3.0.6.pack.js
+Allow: /plugins/content/jw_sigpro/jw_sigpro/includes/js/jquery_fancybox/fancybox/jquery.fancybox.pack.js?v=2.1.5
+Allow: /components/com_rsform/assets/js/script.js?v=48
+Allow: /plugins/content/jw_allvideos/jw_allvideos/includes/js/wmvplayer/silverlight.js?v=4.6.1
+Allow: /plugins/content/jw_allvideos/jw_allvideos/includes/js/wmvplayer/wmvplayer.js?v=4.6.1
+Allow: /plugins/content/jw_allvideos/jw_allvideos/includes/js/quicktimeplayer/AC_QuickTime.js?v=4.6.1
+Allow: /plugins/content/jw_allvideos/jw_allvideos/includes/js/jwplayer/jwplayer.js?v=4.6.1
+Allow: /plugins/content/jw_allvideos/jw_allvideos/tmpl/Classic/css/template.css
+Allow: /plugins/content/jw_allvideos/jw_allvideos/includes/js/behaviour.js?v=4.6.1
+Disallow: /administrator/
+Disallow: /bin/
+Disallow: /cli/
+Disallow: /components/
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /layouts/
+Disallow: /libraries/
+Disallow: /logs/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /tmp/
+Disallow: /error
+Allow: /components/com_masonry/images
+
